@@ -28,6 +28,6 @@ def get_english_meaning(path, emoticon)
   if lib[:get_meaning].include?(emoticon)
     return lib[:get_meaning][emoticon]
   else
-    return "no"
+    return "Sorry, that emoticon was not found"
   end
 end
