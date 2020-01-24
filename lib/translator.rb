@@ -15,6 +15,7 @@ end
 def get_japanese_emoticon(path, emoticon)
   # code goes here
   lib = load_library(path)
+  if lib
   lib[:get_emoticon][emoticon]
 end
 
