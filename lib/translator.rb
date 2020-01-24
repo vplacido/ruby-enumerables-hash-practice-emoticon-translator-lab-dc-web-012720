@@ -2,7 +2,8 @@
 
 def load_library(file)
   # code goes here
-  YAML.load_file(file)
+  lib = YAML.load_file(file)
+  newLib = {}
 end
 
 def get_japanese_emoticon
