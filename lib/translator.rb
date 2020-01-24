@@ -12,7 +12,7 @@ def load_library(file)
   newLib
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon()
   # code goes here
 end
 
