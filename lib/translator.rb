@@ -7,6 +7,8 @@ def load_library(file)
   lib.each do |meaning, emoticon|
     newLib[:get_meaning][emoticon[1]] = meaning
     newLib[:get_emoticon][emoticon[0]] = emoticon[1]
+  end 
+  newLib
 end
 
 def get_japanese_emoticon
